@@ -6,7 +6,7 @@ android {
     buildToolsVersion "20"
 
     defaultConfig {
-        applicationId "com.daimajia.androidanimations"
+        //applicationId "com.daimajia.androidanimations"
         minSdkVersion 8
         targetSdkVersion 20
         versionCode 1
@@ -14,7 +14,7 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            //runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
